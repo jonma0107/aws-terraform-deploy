@@ -165,7 +165,7 @@ Serás solicitado a confirmar la acción. Ingresa "yes" para proceder.
 
 ¡Listo! Has ejecutado con éxito los comandos básicos de Terraform para inicializar, validar, planificar y aplicar cambios en tu infraestructura en AWS.
 
-Nos dirigimos a nuestras instancias y verificamos que la instancia que se configuró en el archivo .tf se haya creado, accedemos a ella y nos desplazamos hasta identificar la dirección IP pública. Un dominio puede apuntar a esta dirección IP.
+Nos dirigimos a nuestras instancias y verificamos que la instancia que se configuró en el archivo èc2.tf` se haya creado, accedemos a ella y nos desplazamos hasta identificar la dirección IP pública. Más adelante un dominio puede apuntar a esta dirección IP.
 
 ![image](https://github.com/jonma0107/aws-terraform-deploy/assets/53632260/ad590597-810a-4835-a428-7aa6e20d45e9)
 
