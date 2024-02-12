@@ -165,3 +165,10 @@ Serás solicitado a confirmar la acción. Ingresa "yes" para proceder.
 
 ¡Listo! Has ejecutado con éxito los comandos básicos de Terraform para inicializar, validar, planificar y aplicar cambios en tu infraestructura en AWS.
 
+Nos dirigimos a nuestras instancias y verificamos que la instancia que se configuró en el archivo .tf se haya creado, accedemos a ella y nos desplazamos hasta identificar la dirección IP pública. Un dominio puede apuntar a esta dirección IP.
+
+![image](https://github.com/jonma0107/aws-terraform-deploy/assets/53632260/ad590597-810a-4835-a428-7aa6e20d45e9)
+
+También nos podemos dar cuenta que se han creado el VPC (Virtual private cloud), en este caso la vpc personalizada llamada **custom-vpc** que se configuró en el archivo `vpc.tf`, así mismo la Subnet (public subnet Az1), la tabla de rutas (public route table) y el Internet Gateway (int-gw). También se implemntó **Security Groups** (web-sg) configurado en el archivo `security-group.tf`
+
+
